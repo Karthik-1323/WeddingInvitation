@@ -1,0 +1,47 @@
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%;scroll-behavior: smooth;}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("./wedding_couple.jpg")}
+.bgimg2 {background-image: url("flowers.jpg");box-shadow:0 0 2em rgba(255, 223, 223, 0.1);filter: blur(10%);}
+.bgimg3{background-image: url("./slideshow/images/3.jpg");position:relative;filter: blur(90%);}
+
+a{
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #ffdddd !important
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f44336;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.groome{
+  filter: none;
+}
+#weds-s{
+  color: red;
+}
+.jumbo-weds b{
+  font-size: 45px;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  height: fit-content;
+}
